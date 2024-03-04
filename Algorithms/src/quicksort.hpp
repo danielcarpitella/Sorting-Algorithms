@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <vector>
-#include "../utilities/utilities.cpp"
+#include "../utilities/utilities.hpp"
 using std::vector;
 
 template<typename T> void randomized_quicksort (vector<T>&, long, long);

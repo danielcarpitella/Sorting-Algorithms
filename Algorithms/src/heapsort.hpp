@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <vector>
-#include "../utilities/utilities.cpp"
+#include "../utilities/utilities.hpp"
 using std::vector;
 
 template<typename T> void max_heapify (vector<T>&, size_t, size_t);
